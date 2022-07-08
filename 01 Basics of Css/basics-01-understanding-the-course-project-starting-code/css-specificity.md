@@ -8,3 +8,4 @@ Rules can affect the same elements, when this happens we have to verify the spef
 * #ID selectors
 * .class, :pseudo-class and [attribute] selectors
 * Tag and ::pseudo-element selectors
+* Inheritance

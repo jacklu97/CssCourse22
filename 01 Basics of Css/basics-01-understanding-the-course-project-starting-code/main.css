@@ -4,12 +4,26 @@ body {
 
 #product-overview {
     background: #ff1b68;
+    /* font-family: inherit; This will apply the style of the parent element */
 }
 
-h1 {
+/* 
+
+This is a combinator, we can combine two or more selectors to generate a more specific style
+How to read it goes from left to right and it represents nested elements
+For example, in this case, this combinator sets style for any h1 nested in product-overview 
+This generates more specifity for rules
+
+*/
+#product-overview h1 {
     color: white;
     font-family: 'Anton', sans-serif;
 }
+
+/* h1 {
+    color: white;
+    font-family: 'Anton', sans-serif;
+} */
 
 .section-title {
     color: #2ddf5c;
